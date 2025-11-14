@@ -1,0 +1,152 @@
+.product-detail {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.detail-header h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.product-image-large {
+  width: 100%;
+  height: 500px;
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.product-details h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.rating {
+  color: #ffa726;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.rating span {
+  color: #666;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.price-tag {
+  font-size: 36px;
+  font-weight: 700;
+  color: #d32f2f;
+  margin-bottom: 30px;
+}
+
+.detail-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.detail-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.detail-section p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #d32f2f;
+}
+
+.reviews-section {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.reviews-section h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.review-stars {
+  color: #ffa726;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.review-card h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.review-text {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d32f2f;
+}
+
+.review-author span {
+  color: #666;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .detail-content {
+    grid-template-columns: 1fr;
+  }
+}

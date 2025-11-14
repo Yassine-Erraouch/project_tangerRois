@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Refrigerator",
+    "category": "Kitchen Appliances",
+    "price": 1299.99,
+    "rating": 4.5,
+    "reviews": 128,
+    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=600&q=80",
+    "description": "Modern smart refrigerator with touch screen and energy-efficient cooling system."
+  },
+  {
+    "id": 2,
+    "name": "Washing Machine",
+    "category": "Laundry",
+    "price": 799.99,
+    "rating": 4.7,
+    "reviews": 256,
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600&q=80",
+    "description": "Front-load washing machine with multiple wash cycles and energy-saving features."
+  },
+  {
+    "id": 3,
+    "name": "Coffee Maker Pro",
+    "category": "Kitchen Appliances",
+    "price": 249.99,
+    "rating": 4.8,
+    "reviews": 342,
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=600&q=80",
+    "description": "Professional coffee maker with programmable settings and thermal carafe."
+  },
+  {
+    "id": 4,
+    "name": "Dishwasher",
+    "category": "Kitchen Appliances",
+    "price": 649.99,
+    "rating": 4.6,
+    "reviews": 189,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=600&q=80",
+    "description": "Quiet and efficient dishwasher with multiple wash programs and stainless steel interior."
+  },
+  {
+    "id": 5,
+    "name": "Microwave Oven",
+    "category": "Kitchen Appliances",
+    "price": 199.99,
+    "rating": 4.4,
+    "reviews": 421,
+    "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&q=80",
+    "description": "Powerful microwave with convection cooking and smart sensor technology."
+  },
+  {
+    "id": 6,
+    "name": "Dryer Machine",
+    "category": "Laundry",
+    "price": 699.99,
+    "rating": 4.5,
+    "reviews": 167,
+    "image": "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?w=600&q=80",
+    "description": "Energy-efficient dryer with sensor drying and wrinkle prevention features."
+  }
+]
